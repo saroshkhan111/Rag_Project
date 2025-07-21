@@ -1,0 +1,25 @@
+    # LangChain core with GPT-4o Mini support
+    langchain>=0.1.17,<0.2.0
+    langchain-community>=0.0.38,<0.1.0  # Use 0.0.38 (latest in 0.0.x series)
+
+    # Chroma DB for vector store
+    chromadb==0.4.22
+
+    # Environment variables
+    python-dotenv==1.0.1
+
+    # PDF reading
+    pypdf==3.17.4
+
+    # Hugging Face embeddings
+    transformers==4.35.0
+    tokenizers==0.14.1
+
+    # FastAPI web server
+    fastapi==0.95.2
+    uvicorn[standard]==0.18.3
+
+    # Text splitting tool
+    langchain-text-splitters==0.0.2
+python-multipart
+langchain-openai==0.0.5 
