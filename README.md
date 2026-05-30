@@ -1,22 +1,9 @@
-# RAG Daily Workflow Agent
-
-AI agent automating daily tasks using 
-RAG pipeline.
-
-## Features
-- Calendar reminders automation
-- Watchlist management
-- Daily item monitoring
-- Confidence thresholding (hallucination prevention)
-- TTL-based re-indexing for data freshness
-
 ## Tech Stack
-- Python
-- FAISS (Vector Store)
-- FastAPI
-- LLM Integration
-- Embeddings (sentence-transformers)
-
-## Architecture
-User Query → Embedding → FAISS Search 
-→ Top 5 Chunks → LLM → Response
+- Python + FastAPI
+- LangChain (RetrievalQA)
+- ChromaDB (Vector Store)
+- HuggingFace Embeddings
+  (all-mpnet-base-v2)
+- OpenRouter AI (LLM)
+- PDF & Text document ingestion
+- Chunk size: 1000, Overlap: 200
